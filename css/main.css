@@ -89,17 +89,19 @@ body, .active {
 }
 
 .get-started-btn {
-	border: 0.2em solid white;
+	border: 0.16em solid white;
 	padding: 0.4em;
 	margin: 0.5em;
   white-space: nowrap;
 	display: inline-block;
-	border-radius: 0.7em;
+	border-radius: 0.5em;
 	color: white;
 	font-size: 1.6em;
   font-weight: 600;
 	text-transform: capitalize;
 	text-decoration:none;
+	text-shadow: 4px 4px 8px rgb(0 0 0 / 33%);
+    box-shadow: 4px 4px 20px 2px rgb(0 0 0 / 33%);
 }
 
 .get-started-btn:hover {
@@ -121,10 +123,6 @@ body, .active {
 }
 
 @media screen and (max-width: 50em) {
-  html, body {
-    height: auto;
-  }
-
   .active {
     flex-direction: column;
   }
