@@ -8,7 +8,7 @@
 			gtag('js', new Date());
 			gtag('config', 'G-LCGX2Z8LMK');
 		</script>
-	   	<title>Boris K.</title>
+		<title>Boris K. personal website</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -17,7 +17,107 @@
 		<link rel="manifest" href="/site.webmanifest">
 		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 		<link href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css" rel="stylesheet">
-		<link rel="stylesheet" href="css/main.css?v1">
+		<style>
+			body, html {
+				height: 100%;
+				width: 100%;
+				font-family:"Helvetica","Arial",sans-serif;
+			}
+
+			body {
+				background: #004d7a; /* for non-css3 browsers */
+				background-image: linear-gradient(to right top, #471069, #228992);
+				background-attachment: fixed;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				display: flex;
+				flex-direction: column;
+			}
+
+			h1, h3 {
+				text-align: center;
+				color: white;
+			}
+
+			h1 {
+				text-transform: uppercase;
+				font-size: 3em;
+				letter-spacing: 0.1em;
+				padding-top: 2rem;
+				margin: auto 0 2rem;
+			}
+
+			h2 {
+				font-size: 1.5em;
+				letter-spacing: 0.02em
+			}
+
+			h1, h2, h3, li a {
+				text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+			}
+
+			a:hover {
+				color: wheat;
+			}
+
+			.main-links {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+
+			ul {
+				list-style: disc;
+				margin: 0;
+				padding: 0;
+			}
+
+			li {
+				margin-bottom: 0.8em;
+			}
+
+			.main-links a {
+				border: 0.16em solid #EEE;
+				padding: 0.4em;
+				margin: 0.5em;
+				white-space: nowrap;
+				display: inline-block;
+				border-radius: 0.5em;
+				color: #EEE;
+				font-size: 1.6em;
+				font-weight: 600;
+				text-transform: capitalize;
+				text-decoration:none;
+				box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+			}
+
+			.main-links a:hover {
+				background-color: rgba(255, 255, 255, 0.2);
+				color: white;
+			}
+
+			.archive {
+				display: flex;
+				flex-direction: column;
+				padding: 1rem;
+				align-items: center;
+				color: #dadada;
+				margin-bottom: auto;
+			}
+
+			.archive a {
+				margin: 0.2em;
+				color: lightgray;
+				text-underline-offset: 0.2em;
+			}
+
+			@media screen and (max-width: 50em) {
+				.main-links {
+					flex-direction: column;
+				}
+			}
+		</style>
 	</head>
 	<body>
 		<h1>Hi. I'm Bo</h1>
@@ -32,7 +132,7 @@
 			<h2>some old stuff:</h2>
 			<ul>
 				<li><a href="/codex/">Q/A from 2018</a></li>
-        			<li><a href="/codex/bubble/">Bubble sort</a></li>
+				<li><a href="/codex/bubble/">Bubble sort</a></li>
 				<li><a href="/webdev-playground/">React boilerplate</a></li>
 			</ul>
 		</div>
