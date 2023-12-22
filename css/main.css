@@ -15,14 +15,17 @@ body {
   flex-direction: column;
 }
 
-h1 {
+h1, h3 {
   text-align: center;
+  color: white;
+}
+
+h1 {
   text-transform: uppercase;
   font-size: 3em;
   letter-spacing: 0.1em;
-  color: white;
-  margin: auto 0 2rem;
   padding-top: 2rem;
+  margin: auto 0 2rem;
 }
 
 h2 {
@@ -30,7 +33,7 @@ h2 {
   letter-spacing: 0.02em
 }
 
-h1, h2, li a {
+h1, h2, h3, li a {
   text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
